@@ -9,11 +9,11 @@ body {
 }
 
 .contenedor {
-    padding: 60px 0;
-    width: 90%;
+    padding: 60px 0; /* 60 arriba y abajo, 0 a los lados*/
+    width: 90%; 
     max-width: 1000px;
-    margin: auto;
-    overflow: hidden;
+    margin: auto; /* centrado */
+    overflow: hidden; /* si se sale del contenedor lo esconde */
 }
 
 .titulo {
@@ -48,20 +48,22 @@ nav > a{
     color:#fff;
     font-weight: 300;
     text-decoration: none;
-    margin-right: 10px;
+    margin: 20px;
 }
 
 nav > a:hover{
-    text-decoration: underline;
+    
+    font-weight: bold;
+    
 }
 
 header .textos-header{
     display: flex;
     height: 430px;
     width: 100%;
-    align-items: center;
+    align-items: center; /*centrar verticalmente*/
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; /*uno al lado del otro*/
     text-align: center;
 }
 
@@ -89,7 +91,7 @@ main .sobre-nosotros{
 }
 .contenedor-sobre-nosotros{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; /*repartir espacios equitativamente*/
 }
 
 .imagen-about-us{
@@ -118,7 +120,7 @@ main .sobre-nosotros{
 }
 
 .contenido-textos p{
-    padding: 0px 0px 30px 15px;
+    padding: 0px 0px 30px 15px; /*arriba derecha abajo izquierda*/
     font-weight: 300;
     text-align: justify;
 }
